@@ -1,0 +1,37 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.text-indigo {
+  color: #845EBC;
+}
+
+.custom-form > div > span{
+  display : none ;
+}
+.custom-form .ant-select-selector{
+border : 1px solid #FF0219 !important;
+}
+
+.main-content {
+  height: calc(100vh - [header-height]);
+  overflow-y: auto;
+}
+
+.sticky-card {
+  position: sticky !important;
+  top: 20px; /* Adjust as needed */
+  max-height: calc(100vh - 40px); /* Ensure it's not taller than viewport */
+  overflow-y: auto; /* Allow scrolling within card if needed */
+  z-index: 1000; /* Ensure it's above other content */
+}

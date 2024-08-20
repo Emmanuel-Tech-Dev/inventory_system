@@ -1,0 +1,43 @@
+.misc_mainbox {    
+  margin: auto;
+  height: 600px;
+  width: 600px;
+  position: relative;
+}
+
+.misc_err {
+  color: #bf2424;
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 11rem;
+  position: absolute;
+  left: 20%;
+  top: 8%;
+}
+
+.misc_far {
+  position: absolute;
+  font-size: 8.5rem;
+  left: 42%;
+  top: 15%;
+  color: #bf2424;
+}
+
+.misc_err2 {
+  color: #bf2424;
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 11rem;
+  position: absolute;
+  left: 68%;
+  top: 8%;
+}
+
+.misc_msg {
+  text-align: center;
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 1.6rem;
+  position: absolute;
+  left: 16%;
+  top: 45%;
+  width: 75%;
+}
+
